@@ -44,7 +44,8 @@ public class Output {
                     throw new RuntimeException(e);
                 }
 
-                writer.println(yourEnglishWord);
+                writer.print(yourEnglishWord);
+                writer.println(" [" + translationsArrays.get(0).getTs() + "]");
                 for (var translation : translationsArrays) {
                     if (PARTS_OF_SPEECH.get(translation.getPos()) != null) {
                         writer.print(PARTS_OF_SPEECH.get(translation.getPos()) + ": ");

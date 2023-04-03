@@ -11,5 +11,6 @@ import java.util.List;
 @ToString
 public class TranslationsArray {
     private String pos; //часть речи
+    private String ts; //транскрипция
     private List<Translation> tr; //список переводов слова
 }
