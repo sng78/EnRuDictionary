@@ -4,7 +4,7 @@
 - Написать программу для создания англо-русского словаря по книге на английском языке.
 
 ***Используемые технологии:***
-- Java JDK 11, Collections, Git, Github, IntelliJ IDEA, Maven, API Яндекс.Словарь, библиотеки Jackson, Lombok, Apache HttpComponents, itextpdf, Evo Inflector
+- Java, HttpComponents, Jackson, iTextPDF, Evo Inflector, Lombok, Maven, API Яндекс.Словарь, IntelliJ IDEA, Git
 
 ***Результаты:***
 - Для работы с json использовал библиотеку Jackson, для pdf - itextpdf
